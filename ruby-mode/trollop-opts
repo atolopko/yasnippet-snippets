@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Trollop options
+# key: opts
+# --
+opts = Trollop.options do
+end

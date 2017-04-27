@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Rails SQL migration
+# key: migration
+# --
+  def up
+    sql <<-SQL
+    SQL
+  end
+
+  def down
+    sql <<-SQL
+    SQL
+  end

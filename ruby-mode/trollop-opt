@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Trollop option
+# key: opt
+# --
+  opt :$1, "$2", type: ${3:$$(yas-choose-value '("int" "integer" "string" "double" "float" "io" "date"))}, required: ${4:$$(yas-choose-value '("true" "false"))}

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: RSpec let with factory
+# key: letf
+# --
+let(:${1:}) { create(:$1$2) }
+$0
